@@ -1,8 +1,11 @@
 {{ define "main" }}
-  <h1>Portfolio of Lasse Iversen</h1>
-  <ul>
-    <li>Theme created</li>
-    <li>Netlify deployment works.</li>
-    <li>baseof.html implemented.</li>
-  </ul>
+  <div class="sans-serif pa5">
+    <div class="measure-wide center">
+      {{ range .Data.Pages }}
+        <li>
+          {{.Title}}
+        </li>
+      {{ end }}
+    </div>
+  </div>
 {{ end }}
