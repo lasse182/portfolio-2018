@@ -1,3 +1,25 @@
 {{ define "main" }}
-  This is the list template
+<div class="flex items-center flex-column pv6 ph5 w-100">
+  <div class="flex flex-column items-center w-100 mw7">
+    <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
+    <h1 class="f2 normal mt0 pb6 lh-title w-100">See a selection of my projects in the<br> list below.</h1>
+    <div class="self-start w-100 pb5">
+      {{ range $i, $element := .Data.Pages }}
+        
+          <a href="{{ .URL }}" class="flex link navy dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
+            <div class="content w-90">
+              <h3 class="f3 mt0">
+                {{.Title}}
+              </h3>
+              <p class="mb0 o-60">
+                {{.Description}}
+              </p>
+            </div>
+            <img class="ml-auto" src="/img/chevron-right.svg" />
+          </a>
+
+      {{ end }}
+    </div>
+  </div>
+</div>
 {{ end }}
