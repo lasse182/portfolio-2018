@@ -7,7 +7,7 @@
         <h2 class="f3 normal pb3">Projects</h2>
         {{ range $i, $element := .Data.Pages }}
           
-            <a href="{{ .URL }}" class="flex link navy dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
+            <a href="{{ .URL }}" class="flex link black-80 dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
               <div class="content w-90">
                 <h3 class="f3 mt0">
                   {{.Title}}

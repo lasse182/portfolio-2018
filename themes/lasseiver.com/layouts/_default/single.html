@@ -1,14 +1,12 @@
 {{ define "main" }}
 <div class="flex items-center flex-column pv6 ph5 w-100">
-    <div class="flex flex-column items-center w-100 mw7">
-      <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
-      <h1 class="f2 normal ma0 lh-title w-100">{{ .Title }}</h1>
-      <h2 class="f3 o-60 normal pb6 w-100 i">{{.Description}}</h3>
-      <div class="self-start w-100 pb5">
-          <article class="flex flex-column navy pt0 pb3 lh-copy f4">
-                {{.Content}}
-          </article>
-      </div>
-    </div>
+  <div class="flex flex-column items-center w-100 mw7">
+    <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
+    <h1 class="f2 normal ma0 lh-title w-100">{{ .Title }}</h1>
+    <h2 class="f3 o-60 normal pb6 w-100 i lh-copy">{{.Description}}</h3>
   </div>
+  <article class="flex flex-column items-center w-100 pb5">
+      {{ .Content }}
+  </article>
+</div>
 {{ end }}

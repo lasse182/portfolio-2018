@@ -6,7 +6,7 @@
     <div class="self-start w-100 pb5">
       {{ range $i, $element := .Data.Pages }}
         
-          <a href="{{ .URL }}" class="flex link navy dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
+          <a href="{{ .URL }}" class="flex link dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
             <div class="content w-90">
               <h3 class="f3 mt0">
                 {{.Title}}
