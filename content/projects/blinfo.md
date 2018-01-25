@@ -2,14 +2,24 @@
 title: "Blinfo"
 date: 2018-01-01T00:00:00+01:00
 draft: false
-description: "Nullam vel urna consequat, scelerisque nunc id, suscipit ipsum."
+description: "A platform designed to help visually impaired people sense the world around them, by utilising the iBeacon technology and smartphones."
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat et odio scelerisque, sed mattis orci maximus. Vestibulum vestibulum erat suscipit metus pulvinar varius. Donec vitae fringilla lacus, nec volutpat risus. Sed blandit, nisl vitae euismod consectetur, ligula libero rhoncus tortor, quis sagittis sapien risus vitae eros. Nunc suscipit ex ac nulla ultricies, vitae sodales leo feugiat. Morbi sit amet nunc faucibus mauris commodo fermentum vel quis ante. Donec ante eros, placerat quis arcu nec, congue consequat velit. Aliquam lobortis, purus vel commodo eleifend, arcu nibh volutpat magna, ut dapibus quam lacus vel turpis. Ut scelerisque, ex a mollis vehicula, nibh augue malesuada risus, ut porttitor lacus massa eu mauris. Nam sed justo a magna sodales bibendum. Integer eget leo lorem. Integer blandit sapien nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam fringilla diam eget velit convallis convallis. Curabitur egestas maximus consequat.
+{{% text %}}Visually impaired people can have a tough time navigating in buildings, which are unfamiliar to them. Blinfo was therefore developed in co-operation with Living IT Lab, to try to solve this problem. Through the app visually impaired people can receive push messages, with relevant information about the specific spot, they are currently at.{{% /text %}}
 
-Nullam vel urna consequat, scelerisque nunc id, suscipit ipsum. Donec et est tincidunt, scelerisque est ut, maximus eros. Nullam ac pulvinar justo. Sed non tellus rutrum, aliquet lectus non, tempor arcu. Ut aliquam libero ut ex porttitor laoreet. Sed vehicula augue tortor, ac vestibulum eros bibendum sed. Aenean iaculis ligula diam, et fringilla metus placerat at. In augue eros, viverra at feugiat id, mollis sit amet lacus. Suspendisse venenatis ultricies tincidunt. Nulla sagittis libero mauris, vel pellentesque risus gravida vitae. Praesent sed augue metus. Nam nec dapibus ligula. Morbi a lacus a est lacinia finibus eu ac mauris. Etiam vestibulum ullamcorper orci vitae malesuada.
+{{< image src="/img/blinfo-one.png" >}}
 
-Aenean porta orci libero, eu bibendum nisl mattis id. Maecenas elit neque, dignissim at tellus sit amet, egestas consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eleifend nunc ut ex ultrices, sit amet commodo neque malesuada. Etiam rhoncus convallis faucibus. Curabitur dignissim arcu magna, varius lacinia nisl eleifend non. Vestibulum auctor ultrices elementum.
+{{% text %}}The final platform consists of a CMS system and an iOS app. The Blinfo CMS was developed to easily create and change messages shown, at certain places around the building and the iOS app makes these messages available for users in the Blinfo app.{{% /text %}}
 
-Praesent nec imperdiet enim. Duis lorem lorem, mollis non nulla non, molestie ultricies tortor. Duis consequat gravida tempor. Donec sed laoreet diam. In mauris ipsum, pellentesque at lectus eu, malesuada viverra turpis. Sed lacinia velit eu elementum eleifend. Morbi laoreet cursus ante vel feugiat. Fusce ac lacus eros. Vestibulum at neque ullamcorper, porttitor nibh eu, lobortis mauris. Curabitur tincidunt tempus venenatis. Proin lacinia pretium sapien sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+{{< image src="/img/blinfo-two.png">}}
 
-Integer ac tristique ante. Mauris in luctus tellus, ac ultrices nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque elit mi, condimentum ut ligula in, varius varius risus. Duis dignissim lectus eget risus iaculis, id sagittis ipsum blandit. Morbi ut velit ut massa eleifend elementum. Nunc blandit est quis laoreet aliquam. Vestibulum eget augue ut enim feugiat elementum. Cras a urna non mi tincidunt ultrices nec et nibh. Cras eu sodales nibh.
+{{% text %}}In the CMS system messages can be attached to a certain spot in the building by the administrator. A series of settings can be set for each message, like which time a day the information should be shown.{{% /text %}}
+
+{{< image src="/img/blinfo-three.png">}}
+
+{{% text %}}Above you can see a typical message received on their phone, when entering a building, in this specific instance a doctors office. The message is read aloud for the person using the app. If you swipe the push-message, additional information is provided.{{% /text %}}
+
+{{< image src="/img/blinfo-four.png">}}
+
+{{% text padding="false" %}}Technically Blinfo CMS was implemented using the latest web technologies. The frontend was developed using the javascript library React and supporting frameworks. Data was accessed and maintained through an API using Laravel.{{% /text %}}
+
+{{% text %}}In this project I have been partly responsible for concept development and design of CMS. I have been solely resposible for the frontend development.{{% /text %}}
