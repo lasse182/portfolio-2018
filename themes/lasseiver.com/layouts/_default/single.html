@@ -1,12 +1,15 @@
 {{ define "main" }}
-<div class="flex items-center flex-column pv6 ph5 w-100">
-  <div class="flex flex-column items-center w-100 mw7">
-    <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
-    <h1 class="f2 normal ma0 lh-title w-100">{{ .Title }}</h1>
-    <h2 class="f3 o-60 normal pb6 w-100 i lh-copy">{{.Description}}</h3>
+  <div class="flex items-center flex-column pt2 mb7 w-100">
+    <div class="flex flex-column w-100 mw7">
+        <a href="/" class="flex link dim items-center mb6 mt3 bg-white-70">
+            <img src="/img/home.svg" />
+            <h2 class="f4 fw5 ml3 black-60">Home</h2>
+        </a>
+      <h1 class="f1 fw6 ma0 mb3 lh-title w-100">{{ .Title }}</h1>
+      <h2 class="f3 o-70 normal pb6 w-100 i lh-copy">{{.Description}}</h3>
+    </div>
+    <article class="flex flex-column items-center lh-copy w-100 pb5">
+        {{ .Content }}
+    </article>
   </div>
-  <article class="flex flex-column items-center w-100 pb5">
-      {{ .Content }}
-  </article>
-</div>
 {{ end }}

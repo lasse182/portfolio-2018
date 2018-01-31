@@ -1,7 +1,6 @@
 {{ define "main" }}
 <div class="flex items-center flex-column pv6 ph5 w-100">
   <div class="flex flex-column items-center w-100 mw7">
-    <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
     <h1 class="f2 normal mt0 pb6 lh-title w-100">See a selection of my projects in the<br> list below.</h1>
     <div class="self-start w-100 pb5">
       {{ range $i, $element := .Data.Pages }}
@@ -11,7 +10,7 @@
               <h3 class="f3 mt0">
                 {{.Title}}
               </h3>
-              <p class="mb0 o-60">
+              <p class="mb0 black-60">
                 {{.Description}}
               </p>
             </div>
