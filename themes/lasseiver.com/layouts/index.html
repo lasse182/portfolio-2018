@@ -1,25 +1,56 @@
 {{ define "main" }}
-  <div class="flex items-center flex-column pv6 ph5 w-100">
+  <div class="flex items-center flex-column pv6 ph4 ph6-ns w-100">
     <div class="flex flex-column items-center w-100 mw7">
-      <a href="/" class="black link fw7 f4 pb6 lh-title w-100">Lasse Iversen</a>
-      <h1 class="f2 normal mt0 pb5 lh-title w-100">Interactive designer & developer<br>from Aarhus, Denmark</h1>
-      <div class="self-start w-100 pb5">
-        <h2 class="f3 normal pb3">Projects</h2>
-        {{ range $i, $element := .Data.Pages }}
+      <h1 class="f2 normal ma0 lh-title w-100 pb4">Hej Søren,</h1>
+      <h1 class="f2 normal ma0 lh-title w-100 pb6 black-60">Herunder kan du se udvalgte projekter samt mit CV længere nede.</h1>
+    </div>
+    <div class="mw7 flex flex-column w-100">
+      <div class="pb5">
+        <div class="flex items-center pb3">
+          <img src="/img/briefcase.svg" />
+          <h2 class="f3 normal ml3">Projects</h2>
+        </div>
+        {{ range $i, $element := where .Site.Pages "Section" "projects" }}
           
-            <a href="{{ .URL }}" class="flex link black-80 dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
+            <a href="{{ .URL }}" class="flex w-100 link black-80 dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
               <div class="content w-90">
-                <h3 class="f3 mt0">
+                <h3 class="f3 fw6 mt0">
                   {{.Title}}
                 </h3>
-                <p class="mb0">
+                <p class="lh-title mb0 f5 black-60">
                   {{.Description}}
                 </p>
               </div>
-              <img class="ml-auto" src="img/chevron-right.svg" />
+              <img class="ml-auto mr2" src="/img/arrow-right.svg" />
             </a>
 
         {{ end }}
+      </div>
+      <div>
+        <div class="flex flex-column pb3">
+          <div class="flex items-center bb b--black-10 pb3 mb4">
+            <img src="/img/clipboard.svg" />
+            <h2 class="f3 normal ml3">CV</h2>
+          </div>
+          <div class="flex pv3">
+            <p class="f6 w-20 mr4 mt1 black-60 fw6">
+              Nuværende
+            </p>
+            <div class="w-80">
+              <h3 class="f4 fw6 ma0">UX Designer hos Danske Bank</h3>
+              <p class="f6 lh-copy black-60">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.</p>
+            </div>
+          </div>
+          <div class="flex pv3">
+              <p class="f6 w-20 mr4 mt1 black-60 fw6">
+                Marts 2017
+              </p>
+              <div class="w-80">
+                <h3 class="f4 fw6 ma0">UX Designer hos Silkeborg Data</h3>
+                <p class="f6 lh-copy black-60">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet.</p>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
