@@ -10,7 +10,7 @@
           <img src="/img/briefcase.svg" />
           <h2 class="f3 normal ml3">Projects</h2>
         </div>
-        {{ range $i, $element := where .Site.Pages "Section" "projects" }}
+        {{ range $i, $element := where .Site.RegularPages "Section" "projects" }}
           
             <a href="{{ .URL }}" class="flex w-100 link black-80 dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
               <div class="content w-90">
@@ -32,25 +32,24 @@
             <img src="/img/clipboard.svg" />
             <h2 class="f3 normal ml3">CV</h2>
           </div>
-          <div class="flex pv3">
-            <p class="f6 w-20 mr4 mt1 black-60 fw6">
-              Nuværende
-            </p>
+          {{ range where .Site.RegularPages "Section" "cv" }}
+          <div class="flex pv3 mb5">
+            <div class="w-20 mr4 mt0">
+              <p class="f6 black-60 fw6 mt0">
+                {{.Params.Period}}
+              </p>
+              <p class="inline-flex f7 fw6 ph3 ma0 pv1 br2 br-pill bg-black-10 ">{{.Params.Company}}</p>
+            </div>
             <div class="w-80">
-              <h3 class="f4 fw6 ma0">UX Designer hos Danske Bank</h3>
-              <p class="f6 lh-copy black-60">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper.</p>
+              <div class="flex items-center">
+                <h3 class="f4 fw6 ma0 mr3">{{.Title}}</h3>
+              </div>
+              <p class="f5 lh-copy black-60 mb4">{{.Description}}</p>
+              <p class="f7 fw6 ma0 mr1  br2 black-50">Værktøjer og metoder:</p>
+              <p class="inline-flex f7 fw6 ma0 mr1 mb2 br2 black-50">prototyping &#149; agile &#149; axure &#149; material design &#149; design system</p>
             </div>
           </div>
-          <div class="flex pv3">
-              <p class="f6 w-20 mr4 mt1 black-60 fw6">
-                Marts 2017
-              </p>
-              <div class="w-80">
-                <h3 class="f4 fw6 ma0">UX Designer hos Silkeborg Data</h3>
-                <p class="f6 lh-copy black-60">Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet.</p>
-              </div>
-            </div>
-        </div>
+          {{ end }}
       </div>
     </div>
   </div>
