@@ -10,15 +10,14 @@ description: "A platform designed to help visually impaired people sense the wor
 
 {{< image src="/img/blinfo-two.png">}}
 
-{{% text %}}The final platform consists of a CMS system and an iOS app. The Blinfo CMS was developed to easily create and change messages shown, at certain places around the building and the iOS app makes these messages available for users in the Blinfo app.{{% /text %}}
+{{% text %}}The final platform consists of a CMS system and an iOS app. The Blinfo CMS was developed to easily create and change messages shown, at certain places around the building and the iOS app makes these messages available for users in the Blinfo app. In the CMS system messages can be attached to a certain spot in the building by the administrator. A series of settings can be set for each message, like which time a day the information should be shown.{{% /text %}}
 
 {{< image src="/img/blinfo-three.png">}}
 
-{{% text %}}In the CMS system messages can be attached to a certain spot in the building by the administrator. A series of settings can be set for each message, like which time a day the information should be shown.{{% /text %}}
+{{% text %}}Above you can see a typical message received on their phone, when entering a building, in this specific instance a doctors office. The message is read aloud for the person using the app. If you swipe the push-message, additional information is provided.{{% /text %}}
 
 {{< image src="/img/blinfo-four.png">}}
 
-{{% text %}}Above you can see a typical message received on their phone, when entering a building, in this specific instance a doctors office. The message is read aloud for the person using the app. If you swipe the push-message, additional information is provided.{{% /text %}}
 
 {{% text padding="false" %}}Technically Blinfo CMS was implemented using the latest web technologies. The frontend was developed using the javascript library React and supporting frameworks. Data was accessed and maintained through an API using Laravel.{{% /text %}}
 
