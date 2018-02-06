@@ -33,13 +33,13 @@
             <h2 class="f3 normal ml3">CV</h2>
           </div>
           {{ range where .Site.Pages "Section" "cv" }}
-          {{print .Params.Company}}
+          {{print .Params.company}}
           <div class="flex pv3 mb5">
             <div class="w-20 mr4 mt0">
               <p class="f6 black-60 fw6 mt0">
                 {{.Params.Period}}
               </p>
-              <p class="inline-flex f7 fw6 ph3 ma0 pv1 br2 br-pill bg-black-10 ">{{print .Params.Company}}</p>
+              <p class="inline-flex f7 fw6 ph3 ma0 pv1 br2 br-pill bg-black-10 ">{{.Params.company}}</p>
             </div>
             <div class="w-80">
               <div class="flex items-center">
@@ -48,7 +48,7 @@
               <p class="f6 lh-copy black-60 mb4">{{.Description}}</p>
               {{ if isset .Params "tools" }}
                 <p class="f6 fw6 ma0 mr1 br2 black-50">Værktøjer og metoder:</p>
-                <p class="inline-flex f6 fw6 ma0 mr1 mb2 br2 black-50">{{print .Params.Tools}}</p>
+                <p class="inline-flex f6 fw6 ma0 mr1 mb2 br2 black-50">{{.Params.tools}}</p>
               {{ end }}
             </div>
           </div>
