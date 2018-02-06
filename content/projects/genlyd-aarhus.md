@@ -1,15 +1,17 @@
 ---
 title: "Genlyd Aarhus"
-date: 2018-01-01T00:00:00+01:00
+date: 2018-01-28T00:00:00+01:00
 draft: false
-description: "Morbi laoreet cursus ante vel feugiat. Fusce ac lacus eros."
+description: "A platform with activities for citizens, to strengthen relations between people in the local communities in Aarhus."
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat et odio scelerisque, sed mattis orci maximus. Vestibulum vestibulum erat suscipit metus pulvinar varius. Donec vitae fringilla lacus, nec volutpat risus. Sed blandit, nisl vitae euismod consectetur, ligula libero rhoncus tortor, quis sagittis sapien risus vitae eros. Nunc suscipit ex ac nulla ultricies, vitae sodales leo feugiat. Morbi sit amet nunc faucibus mauris commodo fermentum vel quis ante. Donec ante eros, placerat quis arcu nec, congue consequat velit. Aliquam lobortis, purus vel commodo eleifend, arcu nibh volutpat magna, ut dapibus quam lacus vel turpis. Ut scelerisque, ex a mollis vehicula, nibh augue malesuada risus, ut porttitor lacus massa eu mauris. Nam sed justo a magna sodales bibendum. Integer eget leo lorem. Integer blandit sapien nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam fringilla diam eget velit convallis convallis. Curabitur egestas maximus consequat.
+{{< image src="/img/genlyd-one.png" >}}
 
-Nullam vel urna consequat, scelerisque nunc id, suscipit ipsum. Donec et est tincidunt, scelerisque est ut, maximus eros. Nullam ac pulvinar justo. Sed non tellus rutrum, aliquet lectus non, tempor arcu. Ut aliquam libero ut ex porttitor laoreet. Sed vehicula augue tortor, ac vestibulum eros bibendum sed. Aenean iaculis ligula diam, et fringilla metus placerat at. In augue eros, viverra at feugiat id, mollis sit amet lacus. Suspendisse venenatis ultricies tincidunt. Nulla sagittis libero mauris, vel pellentesque risus gravida vitae. Praesent sed augue metus. Nam nec dapibus ligula. Morbi a lacus a est lacinia finibus eu ac mauris. Etiam vestibulum ullamcorper orci vitae malesuada.
+{{% text %}}Genlyd Aarhus is a platform of activities in the area of Aarhus. On the platform you can see and add local activites. The platform should support less resourceful people in getting out the door and meeting other people.{{% /text %}}
 
-Aenean porta orci libero, eu bibendum nisl mattis id. Maecenas elit neque, dignissim at tellus sit amet, egestas consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eleifend nunc ut ex ultrices, sit amet commodo neque malesuada. Etiam rhoncus convallis faucibus. Curabitur dignissim arcu magna, varius lacinia nisl eleifend non. Vestibulum auctor ultrices elementum.
+{{< image src="/img/genlyd-two.png">}}
 
-Praesent nec imperdiet enim. Duis lorem lorem, mollis non nulla non, molestie ultricies tortor. Duis consequat gravida tempor. Donec sed laoreet diam. In mauris ipsum, pellentesque at lectus eu, malesuada viverra turpis. Sed lacinia velit eu elementum eleifend. Morbi laoreet cursus ante vel feugiat. Fusce ac lacus eros. Vestibulum at neque ullamcorper, porttitor nibh eu, lobortis mauris. Curabitur tincidunt tempus venenatis. Proin lacinia pretium sapien sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+{{% text %}}The design process included a workshop to determine the overarching visual style. Above you can see three different examples of visual direction. One was chosen to preceed with.{{% /text %}}
 
-Integer ac tristique ante. Mauris in luctus tellus, ac ultrices nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque elit mi, condimentum ut ligula in, varius varius risus. Duis dignissim lectus eget risus iaculis, id sagittis ipsum blandit. Morbi ut velit ut massa eleifend elementum. Nunc blandit est quis laoreet aliquam. Vestibulum eget augue ut enim feugiat elementum. Cras a urna non mi tincidunt ultrices nec et nibh. Cras eu sodales nibh.
+{{< image src="/img/genlyd-three.png">}}
+
+{{% text %}}The final implementation included a styleguide, in which each individual component and template on the site where implemented. This was hooked up to Drupal, which served as the CMS for the platform. I was reponsible for designing the platform in collaboration with the customer, as well as developing the components and templates for the site.{{% /text %}}
