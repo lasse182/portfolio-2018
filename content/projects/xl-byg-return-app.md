@@ -1,15 +1,17 @@
 ---
 title: "XL-byg Return App"
-date: 2018-01-01T00:00:00+01:00
+date: 2018-01-29T00:00:00+01:00
 draft: false
-description: "Cras a urna non mi tincidunt ultrices nec et nibh."
+description: "An app which makes it easy for customers to return their excessive goods."
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla gravida erat et odio scelerisque, sed mattis orci maximus. Vestibulum vestibulum erat suscipit metus pulvinar varius. Donec vitae fringilla lacus, nec volutpat risus. Sed blandit, nisl vitae euismod consectetur, ligula libero rhoncus tortor, quis sagittis sapien risus vitae eros. Nunc suscipit ex ac nulla ultricies, vitae sodales leo feugiat. Morbi sit amet nunc faucibus mauris commodo fermentum vel quis ante. Donec ante eros, placerat quis arcu nec, congue consequat velit. Aliquam lobortis, purus vel commodo eleifend, arcu nibh volutpat magna, ut dapibus quam lacus vel turpis. Ut scelerisque, ex a mollis vehicula, nibh augue malesuada risus, ut porttitor lacus massa eu mauris. Nam sed justo a magna sodales bibendum. Integer eget leo lorem. Integer blandit sapien nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam fringilla diam eget velit convallis convallis. Curabitur egestas maximus consequat.
+{{< image src="/img/xlbyg-one.png" >}}
 
-Nullam vel urna consequat, scelerisque nunc id, suscipit ipsum. Donec et est tincidunt, scelerisque est ut, maximus eros. Nullam ac pulvinar justo. Sed non tellus rutrum, aliquet lectus non, tempor arcu. Ut aliquam libero ut ex porttitor laoreet. Sed vehicula augue tortor, ac vestibulum eros bibendum sed. Aenean iaculis ligula diam, et fringilla metus placerat at. In augue eros, viverra at feugiat id, mollis sit amet lacus. Suspendisse venenatis ultricies tincidunt. Nulla sagittis libero mauris, vel pellentesque risus gravida vitae. Praesent sed augue metus. Nam nec dapibus ligula. Morbi a lacus a est lacinia finibus eu ac mauris. Etiam vestibulum ullamcorper orci vitae malesuada.
+{{% text %}}In larger building projects alot of material is used and it can be extensive work to return excessive material from the constructions site. This app serves to make that process easier.{{% /text %}}
 
-Aenean porta orci libero, eu bibendum nisl mattis id. Maecenas elit neque, dignissim at tellus sit amet, egestas consequat arcu. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque eleifend nunc ut ex ultrices, sit amet commodo neque malesuada. Etiam rhoncus convallis faucibus. Curabitur dignissim arcu magna, varius lacinia nisl eleifend non. Vestibulum auctor ultrices elementum.
+{{< image src="/img/xlbyg-two.png">}}
 
-Praesent nec imperdiet enim. Duis lorem lorem, mollis non nulla non, molestie ultricies tortor. Duis consequat gravida tempor. Donec sed laoreet diam. In mauris ipsum, pellentesque at lectus eu, malesuada viverra turpis. Sed lacinia velit eu elementum eleifend. Morbi laoreet cursus ante vel feugiat. Fusce ac lacus eros. Vestibulum at neque ullamcorper, porttitor nibh eu, lobortis mauris. Curabitur tincidunt tempus venenatis. Proin lacinia pretium sapien sit amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+{{% text %}}In the app your a able to take a picture of the excessive material or garbage and add it to a return order. When sent to XL-Byg the pickup will be scheduled and it will get picked up as soon as possible. {{% /text %}}
 
-Integer ac tristique ante. Mauris in luctus tellus, ac ultrices nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque elit mi, condimentum ut ligula in, varius varius risus. Duis dignissim lectus eget risus iaculis, id sagittis ipsum blandit. Morbi ut velit ut massa eleifend elementum. Nunc blandit est quis laoreet aliquam. Vestibulum eget augue ut enim feugiat elementum. Cras a urna non mi tincidunt ultrices nec et nibh. Cras eu sodales nibh.
+{{< image src="/img/xlbyg-three.png">}}
+
+{{% text %}}A existing proof of concept app, was already developed, but it should be develop into a fully functional app. In the process I developed wireframes and visual mockups for the complete app - ready for implementation.{{% /text %}}
