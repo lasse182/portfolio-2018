@@ -5,6 +5,5 @@ draft: false
 period: "Jan. 13 - Jun. 13"
 company: "Studiejob"
 description: "Hos Billetten var jeg ansat som studenterprogrammør og arbejdede med design og frontendudvikling af websites for en række teatre i hele landet."
-
 tags: "ui • frontend  • wordpress"
 ---
