@@ -45,6 +45,10 @@
                 <h3 class="f4 fw6 ma0 mr3">{{.Title}}</h3>
               </div>
               <p class="f6 lh-copy black-60 mb4">{{.Description}}</p>
+              {{ if isset .Params "tags" }}
+                <p class="f6 fw6 ma0 mr1 br2 black-50">Værktøjer og metoder:</p>
+                <p class="inline-flex f6 fw6 ma0 mr1 mb2 br2 black-50">{{.Params.Tags}}</p>
+              {{ end }}
             </div>
           </div>
           {{ end }}
