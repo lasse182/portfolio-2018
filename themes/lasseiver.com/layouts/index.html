@@ -10,7 +10,7 @@
           <img src="/img/briefcase.svg" />
           <h2 class="f3 normal ml3">Projects</h2>
         </div>
-        {{ range $i, $element := where .Site.RegularPages "Section" "projects" }}
+        {{ range $i, $element := where .Site.Pages "Section" "projects" }}
           
             <a href="{{ .URL }}" class="flex w-100 link black-80 dim pt3 pb3 pv4 bb b--black-10 {{ if eq $i 0}}bt{{ end }}">
               <div class="content w-90">
@@ -32,7 +32,7 @@
             <img src="/img/clipboard.svg" />
             <h2 class="f3 normal ml3">CV</h2>
           </div>
-          {{ range where .Site.RegularPages "Section" "cv" }}
+          {{ range where .Site.Pages "Section" "cv" }}
           <div class="flex pv3 mb5">
             <div class="w-20 mr4 mt0">
               <p class="f6 black-60 fw6 mt0">
