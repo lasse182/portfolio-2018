@@ -1,3 +1,3 @@
 # portfolio-2018
 
-Portfolio of Lasse Iversen. Build with Hugo.
+Portfolio of Lasse Iversen 2018. Build with Hugo.
